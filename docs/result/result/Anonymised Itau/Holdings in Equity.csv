@@ -1,0 +1,5 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+6078111,JTU040105,USD,2022/02/28,5227,23.69,Equity,AT&T INC COM,2022/02/28,123827.63,US00206R1023,,37.18,,,,,,,,,,123827.63,USD,,,,2020/03/05,1,
+6078111,JTU040105,USD,2022/02/28,4415,55.77,Equity,CISCO SYSTEMS INC,2022/02/28,246224.55,US17275R1023,,39.57,,,,,,,,,,246224.55,USD,,,,2020/03/05,1,
+6078111,JTU040105,USD,2022/02/28,1462,141.8,Equity,JP MORGAN CHASE & CO COM,2022/02/28,207311.6,US46625H1005,,113.97,,,,,,,,,,207311.6,USD,,,,2020/03/05,1,
+6078111,JTU040105,USD,2022/02/28,1294,298.79,Equity,MICROSOFT CORP COM,2022/02/28,386634.26,US5949181045,,166.27,,,,,,,,,,386634.26,USD,,,,2020/03/05,1,

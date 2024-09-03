@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Holding in Cash, Deposits & Short Term",
+    "description": "Holding in Cash, Deposits & Short Term\nFind all holdings in Cash, Deposits & Short Term from the report. Construct the table with following headers. Respond with only the table in CSV format.\nPortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying\n",
+    "output_file": "Holding in Cash Deposits Short Term.csv"
+  },
+  {
+    "name": "Holdings in Equity",
+    "description": "Holdings in Equity\nFind all holdings in Equities from the report. Construct the table with following headers. Respond with only the table in CSV format.\nPortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying\n",
+    "output_file": "Holdings in Equity.csv"
+  },
+  {
+    "name": "Holding in Options Swaps & Structure Assets",
+    "description": "Holding in Options Swaps & Structure Assets\nFind all holdings in Options, Swaps & Structured Assets from the report. Construct the table with following headers. Respond with only the table in CSV format.\nPortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying\n",
+    "output_file": "Holding in Options Swaps Structure Assets.csv"
+  },
+  {
+    "name": "Transaction Records",
+    "description": "Transaction Records\nFind all transactions in the report. Construct the table with following headers. Respond with only the table in CSV format.\nCanopyCcyAccount,PortfolioId,AccountNumber,Currency,TradeDate,ValueDate,Narration,SettlementAmount,Quantity,TransactedPrice,DirtyPrice,ISINCode,BankSecurityIdentifier,TransactionTypeFromBank,BankReferenceId,CanopyTicker,CanopyTransactionType,BBGIdentifier,RIC,Valoren/WKN,Cusip,NameDescription,Coupon,Maturity,StartDate,GrossSettlementAmount,Underlying,MoreInfo,InstrumentType,AssetClass,SubAssetClass,FXRate,MultiplierRealizedPnL,RealizedPnLMkt,RealizedPnLFx,RealizedPnLCcy,RealizedPnLMktCcy,RealizedPnLFxCcy,AccruedInterest,WithholdingTax,Commission,GST/VAT,StampDuty,OtherFees,OtherTaxes,AccruedInterestCcy,WithholdingTaxCcy,CommissionCcy,Gst/VatCcy,StampDutyCcy,OtherFeesCcy,OtherTaxesCcy\n",
+    "output_file": "Transaction Records.csv"
+  }
+]

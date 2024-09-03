@@ -1,0 +1,4 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+,,HKD,2022/02/28,,,Cash,,,259650.31,,,,,,,,,,,,,,259650.31,HKD,,,,,,,
+,,HKD,2022/02/09,,,Loan,,,190000.0,,,,,,,,2022/03/09,,,,,190000.0,HKD,,,,,,,
+,,HKD,2022/02/14,,,Loan,,,150000.0,,,,,,,,2022/03/01,,,,,150000.0,HKD,,,,,,,

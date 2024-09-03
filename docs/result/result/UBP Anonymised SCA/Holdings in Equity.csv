@@ -1,0 +1,10 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+,1234567.1234.HKD,HKD,2022/02/28,400,472.8,Equity,R.SHA TENCENT HLDGRG,,,,,,,,,,,,,,,,,,2022/02/07,
+,1234567.1234.HKD,HKD,2022/02/28,40000,4.2,Equity,R.SHA CN PETRO & CHEM,,,,,,,,,,,,,,,,,,2022/02/09,
+,1234567.1234.HKD,HKD,2022/02/28,5000,56.6,Equity,R.SHA CHINA MOBILE RG,,,,,,,,,,,,,,,,,,2022/02/10,
+,1234567.1234.HKD,HKD,2022/02/28,1600,92.9,Equity,R.SHA KUAISHOU TECH R,,,,,,,,,,,,,,,,,,2022/02/14,
+,1234567.1234.HKD,HKD,2022/02/28,40000,1.4,Fund,FINSB CSOP NASDAQ100,,,,,,,,,,,,,,,,,,2022/02/15,
+,1234567.1234.HKD,HKD,2022/02/28,80000,1.342,Fund,FINSB CSOP NASDAQ100,,,,,,,,,,,,,,,,,,2022/02/16,
+,1234567.1234.HKD,HKD,2022/02/28,1000,66.5,Equity,R.SHA PING AN INS-H-,,,,,,,,,,,,,,,,,,2022/02/16,
+,1234567.1234.HKD,HKD,2022/02/28,50000,1.18,Equity,R.SHA FIH MOBILE RG,,,,,,,,,,,,,,,,,,2022/02/23,
+,1234567.1234.HKD,HKD,2022/02/28,60000,1.472,Fund,FINSB CSOP NASDAQ100,,,,,,,,,,,,,,,,,,2022/02/28,

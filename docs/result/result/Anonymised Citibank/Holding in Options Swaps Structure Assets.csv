@@ -1,0 +1,5 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+8/888888/888,888888,USD,2022/06/30,500000,98.51,Structured Investments,UBS AG FRN LINK TO INVESCO QQQ TRUST DUE141122,2022/06/30,492550.0,XS2450752949,,100.035,,,,,,,,,,492550.0,USD,,,,,,
+8/888888/888,888888,USD,2022/06/30,500000,99.85,Structured Investments,UBS AG FRN LINK TO SPDR DUE 040123,2022/06/30,499250.0,XS2470520466,,100.035,,,,,,,,,,499250.0,USD,,,,,,
+8/888888/888,888888,USD,2022/06/30,500000,98.87,Structured Investments,UBS AG FRN LINK TO SPDR S&P 500 ETF TRUST DUE 141122,2022/06/30,494350.0,XS2450491456,,100.035,,,,,,,,,,494350.0,USD,,,,,,
+8/888888/888,888888,USD,2022/06/30,400000.0,100.14,Other Structured Investments,Market Linked Instrument 6 MTH USD SPY UP MLI Value 24MAY22 MAT 25NOV22 Ref 7888888013SIMX900050,2022/06/30,400562.8,,,,,,,,,,,,400562.8,USD,,,,2022/05/24,,

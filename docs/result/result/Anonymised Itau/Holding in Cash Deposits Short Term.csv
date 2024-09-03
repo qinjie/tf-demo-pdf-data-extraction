@@ -1,0 +1,2 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+6078111,6078111-001-000-840,USD,2022/02/28,,,Demand Deposit,Depósitos a Vista (Demand Deposit),2022/02/28,5096341.85,,,,,,,,,,,,,,5096341.85,USD,,,,,1,

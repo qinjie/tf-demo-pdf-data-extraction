@@ -1,0 +1,11 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+,,HKD,2022/02/09,40,0.23,CALL,CLI CA FEB14.50,2022/02/09,9720.0,,BR0218888,,,,,,,,,,,,,,,
+,,HKD,2022/02/14,40,0.35,CALL,CLI CA FEB14.50,2022/02/14,13480.0,,BR0219596,,,,,,,,,,,,,,,
+,,HKD,2022/02/22,30,2.48,PUT,HKB PA MAR57.50,2022/02/22,30150.0,,BR0220718,,,,,,,,,,,,,,,
+,,HKD,2022/02/23,10,3.5,PUT,HKB PA MAR57.50,2022/02/23,13860.0,,BR0220827,,,,,,,,,,,,,,,
+,,HKD,2022/02/23,20,3.3,PUT,HKB PA MAR57.50,2022/02/23,26136.0,,BR0220828,,,,,,,,,,,,,,,
+,,HKD,2022/02/24,6,17.5,PUT,JDC P A MAR 280,2022/02/24,53025.0,,BR0221112,,,,,,,,,,,,,,,
+,,HKD,2022/02/25,1,25.0,PUT,JDC P A MAR 280,2022/02/25,12375.0,,BR0221344,,,,,,,,,,,,,,,
+,,HKD,2022/02/25,3,23.0,PUT,JDC P A MAR 280,2022/02/25,34155.0,,BR0221345,,,,,,,,,,,,,,,
+,,HKD,2022/02/25,10,1.2,PUT,COL P A MAR 24,2022/02/25,24240.0,,BR0221357,,,,,,,,,,,,,,,
+,,HKD,2022/02/28,2,21.0,PUT,JDC P A MAR 280,2022/02/28,20790.0,,BR0221650,,,,,,,,,,,,,,,

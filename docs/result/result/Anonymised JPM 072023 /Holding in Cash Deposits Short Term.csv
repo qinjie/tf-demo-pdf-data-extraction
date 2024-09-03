@@ -1,0 +1,3 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+,1234567,GBP,2023/07/31,11.77,10465.54,Cash,JPM GBP LIQUIDITY LVNAV W (ACC),2023/07/31,158347.13,,,,,,,,,,,,,,,,,,
+,1234567,USD,2023/09/15,200000.0,99.63,Short Term,NISSAN MOTOR CO SERIES REGS,2023/07/31,199252.22,,,,,,3.043,2023/09/15,2020/09/17,,,,199252.22,USD,,,2282.25,,

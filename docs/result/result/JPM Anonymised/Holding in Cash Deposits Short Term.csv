@@ -1,0 +1,6 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+,8888888,GBP,2021/04/30,23965.28,,Cash Holdings,Pound Sterling Current Account,,33333.93,,,,,,,,,,,,,,33333.93,GBP,,,,,1,
+,8888888,USD,2021/04/30,2052.12,,Cash Holdings,U.S. Dollar Current Account,,2052.12,,,,,,,,,,,,,,2052.12,USD,,,,,1,
+,8888888,USD,2021/04/30,213443.0,,Cash Holdings,U.S. Dollar ETP Account,,213443.0,,,,,,,,,,,,,,213443.0,USD,,,,,1,
+,8888888,EUR,2021/04/30,2583.2,,Cash Holdings,Euro Current Account,,3121.02,,,,,,,,,,,,,,3121.02,EUR,,,,,1,
+,8888888,EUR,2021/04/30,17814.9,,Cash Holdings,Euro ETP Account,,21523.96,,,,,,,,,,,,,,21523.96,EUR,,,,,1,

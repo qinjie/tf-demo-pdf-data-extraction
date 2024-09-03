@@ -1,0 +1,6 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+,1234567,GBP,2023/08/31,11.77,10511.98,Short Term,JPM GBP LIQUIDITY LVNAV W (ACC) JPM GBP LIQUIDITY LVNAV,2023/08/31,156698.99,,,,,,,,,,,,,,,,,,
+,1234567,USD,2023/08/31,33.66,10843.53,Short Term,JPMORGAN LIQUIDITY FUNDS JPM USD LIQUIDITY LVNAV W (ACC.),2023/08/31,365036.6,,,,,,,,,,,,,,,,,,
+,1234567,USD,2023/08/31,200000.0,99.91,Short Term,NISSAN MOTOR CO SERIES REGS 3.043% 17.09.2020-15.09.2023,2023/08/31,199820.22,,,,,,3.043,2023/09/15,2020/09/17,,,,,,,6086.0,,,,
+,1234567,SGD,2023/08/31,17033.39,,Cash Holdings,Singapore Dollar Current Account,,,12600.06,,,,,,,,,,,,,,,,,,
+,1234567,USD,2023/08/31,3305.36,,Cash Holdings,U.S. Dollar Current Account,,,3305.36,,,,,,,,,,,,,,,,,,

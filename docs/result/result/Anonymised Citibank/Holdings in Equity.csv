@@ -1,0 +1,7 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+8/888888/888,888888,HKD,2022/06/30,186,,Equity,JD.com Inc (9618 HK),2022/06/30,47020.8,KYG8208B1014,,,,9618 HK,,,,,,,,47020.8,HKD,,,,,,
+8/888888/888,888888,HKD,2022/06/30,5200,,Equity,Kuaishou Technology (1024 HK),2022/06/30,454480.0,,,184.1513,,1024 HK,,,,,,,,454480.0,HKD,,,,,,
+8/888888/888,888888,HKD,2022/06/30,3900,,Equity,Tencent Holdings Ltd (700 HK),2022/06/30,1382160.0,KYG875721634,,556.69,,700 HK,,,,,,,,1382160.0,HKD,,,,,,
+8/888888/888,888888,USD,2022/06/30,500000,,Structured Investment,UBS AG FRN LINK TO INVESCO QQQ TRUST DUE141122,2022/06/30,492550.0,XS2450752949,,100.035,98.51,,,,,,,,492550.0,USD,,,,,,
+8/888888/888,888888,USD,2022/06/30,500000,,Structured Investment,UBS AG FRN LINK TO SPDR DUE 040123,2022/06/30,499250.0,XS2470520466,,100.035,99.85,,,,,,,,499250.0,USD,,,,,,
+8/888888/888,888888,USD,2022/06/30,500000,,Structured Investment,UBS AG FRN LINK TO SPDR S&P 500 ETF TRUST DUE 141122,2022/06/30,494350.0,XS2450491456,,100.035,98.87,,,,,,,,494350.0,USD,,,,,,

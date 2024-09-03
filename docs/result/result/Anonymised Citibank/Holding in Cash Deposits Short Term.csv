@@ -1,0 +1,3 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+8/888888/888,0/888888/001,USD,,150020.6,1,Call Deposit (IB) A/C No: 0/888888/001,2022/06/30,150020.6,,,,,,,,,,,,,,150020.6,USD,,,,,
+8/888888/888,0/888888/005,HKD,,6240.03,1,Call Deposit (IB) A/C No: 0/888888/005,2022/06/30,795.39,,,,,,,,,,,,,,795.39,HKD,,,,,

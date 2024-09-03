@@ -1,0 +1,4 @@
+ PortfolioId,AccountNumber,Currency,ValueDate,Quantity,Price,InstrumentType,NameDescription,PriceDate,MarketValue,ISINCode,BankSecurityIdentifier,AvgPurchasePrice,DirtyPrice,CanopyTicker,Coupon,Maturity,StartDate,BBGIdentifier,RIC,Valoren/WKN,CUSIP,MarketValueInFXCY,FXCY,AccruedInterestPct,AccruedInterestAbs,AccruedInterestAbsFxcy,PurchaseDate,PriceMultiplier,Underlying
+S-111111-1,,HKD,2022/08/31,48,246.8,Ordinary Share,JD.com Inc-CLASS A,2022/08/31,2109.79,KYG8208B1014,9618 HK,,,,,,,,,,,,,,,,
+S-111111-1,,HKD,2022/08/31,1000,327.2,Ordinary Share,Tencent Holdings Ltd,2022/08/31,58272.89,KYG875721634,700 HK,639.1471,,,,,,,,,,,,,,
+S-111111-1,,SGD,2022/08/31,500000,0.117,Ordinary Share,Sembcorp Marine Ltd,2022/08/31,58500.0,SG1H97877952,SMM SP,,,,,,,,,,,,,,

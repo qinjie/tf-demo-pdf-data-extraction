@@ -1,0 +1,13 @@
+ CanopyCcyAccount,PortfolioId,AccountNumber,Currency,TradeDate,ValueDate,Narration,SettlementAmount,Quantity,TransactedPrice,DirtyPrice,ISINCode,BankSecurityIdentifier,TransactionTypeFromBank,BankReferenceId,CanopyTicker,CanopyTransactionType,BBGIdentifier,RIC,Valoren/WKN,Cusip,NameDescription,Coupon,Maturity,StartDate,GrossSettlementAmount,Underlying,MoreInfo,InstrumentType,AssetClass,SubAssetClass,FXRate,MultiplierRealizedPnL,RealizedPnLMkt,RealizedPnLFx,RealizedPnLCcy,RealizedPnLMktCcy,RealizedPnLFxCcy,AccruedInterest,WithholdingTax,Commission,GST/VAT,StampDuty,OtherFees,OtherTaxes,AccruedInterestCcy,WithholdingTaxCcy,CommissionCcy,Gst/VatCcy,StampDutyCcy,OtherFeesCcy,OtherTaxesCcy
+,,8888888,GBP,2021/04/07,2021/04/07,PURCHASE OF SECURITIES DELIVEROO PLC,-2683.26,500.0,3.9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,8888888,EUR,2021/04/12,2021/04/12,PURCHASE ADIDAS AG,-255175.71,770.0,276.72,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,8888888,USD,2021/04/12,2021/04/12,PURCHASE NIKE INC SHARES B,-300989.48,2210.0,135.89,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,8888888,USD,2021/04/13,2021/04/13,RECEIPT INVESCO QQQ TRUST SERIES 1 ETF OTC DAILY Ac Put=311.1648 KO=360.19 09.02.2021-09.08.2021,,,2112.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,8888888,USD,2021/04/13,2021/04/13,DELIVERY INVESCO QQQ TRUST SERIES 1 ETF OTC DAILY Ac Call=311.1648 KO=360.1 09.02.2021-09.08.2021,,,-1056.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,8888888,USD,2021/04/13,2021/04/13,RECEIPT SPDR S&P 500 ETF Trust OTC DAILY Ac Put=355.696 KO=420.76 09.02.2021-09.02.2022,,,2244.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,8888888,USD,2021/04/13,2021/04/13,DELIVERY SPDR S&P 500 ETF Trust OTC DAILY Ac Call=355.696 KO=420.76 09.02.2021-09.02.2022,,,-1122.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,8888888,USD,2021/04/16,2021/04/16,PURCHASE INVESCO QQQ TRUST SERIES 1 ETF OTC DAILY Ac Put=311.1648 KO=360.19 09.02.2021-09.08.2021,,,8064.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,8888888,USD,2021/04/16,2021/04/16,SALE INVESCO QQQ TRUST SERIES 1 ETF OTC DAILY Ac Call=311.1648 KO=360.1 09.02.2021-09.08.2021,9500.0,-4032.0,4.22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,8888888,USD,2021/04/16,2021/04/16,PURCHASE SPDR S&P 500 ETF Trust OTC DAILY Ac Put=355.696 KO=420.76 09.02.2021-09.02.2022,,,21624.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,8888888,USD,2021/04/16,2021/04/16,SALE SPDR S&P 500 ETF Trust OTC DAILY Ac Call=355.696 KO=420.76 09.02.2021-09.02.2022,5500.02,-10812.0,1.2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,8888888,EUR,2021/04/29,2021/04/29,PURCHASE LOREAL,-199447.58,485.0,337.19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
