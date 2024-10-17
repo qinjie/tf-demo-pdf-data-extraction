@@ -9,11 +9,11 @@ This project demonstrates how to accomblish above task using Large Language Mode
 
 ## Architecture
 
-<img src="/Users/qinjie/Library/Application Support/typora-user-images/image-20241017102916907.png" alt="image-20241017102916907" style="zoom: 50%;" />
+<img src="./docs/images/image-20241017102916907.png" alt="image-20241017102916907" style="zoom: 50%;" />
 
 ### Step Function
 
-<img src="/Users/qinjie/Library/Application Support/typora-user-images/image-20241017103003605.png" alt="image-20241017103003605" style="zoom:50%;" />
+<img src="./docs/images/image-20241017103003605.png" alt="image-20241017103003605" style="zoom:50%;" />
 
 ### Lambda Functions
 
@@ -34,7 +34,7 @@ This project demonstrates how to accomblish above task using Large Language Mode
 3. Result from `lambda_html_to_csv` function will be placed in `result` folder.
 4. Result from `lambda_csv_html_validation` function will be placed in `validation` folder.
 
-<img src="/Users/qinjie/Library/Application Support/typora-user-images/image-20241017170909212.png" alt="image-20241017170909212"  />
+<img src="./docs/images/image-20241017170909212.png" alt="image-20241017170909212"  />
 
 
 
@@ -97,5 +97,5 @@ tf destroy -var-file=tfvars/dev.tfvars -lock=false
 3. Check the result in other folders in S3 bucket.
 4. You can also subscribe your email to the SNS topic to receive email notification.
 
-![image-20241017171223531](/Users/qinjie/Library/Application Support/typora-user-images/image-20241017171223531.png)
+![image-20241017171223531](./docs/images/image-20241017171223531.png)
 
