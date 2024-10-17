@@ -1,0 +1,129 @@
+{
+  "Comment": "A description of my state machine",
+  "StartAt": "lambda_pdf_to_html",
+  "States": {
+    "lambda_pdf_to_html": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "Payload.$": "$",
+        "FunctionName": "${lambda_pdf_to_html_arn}"
+      },
+      "OutputPath": "$.Payload",
+      "Retry": [
+        {
+          "ErrorEquals": [
+            "Lambda.ServiceException",
+            "Lambda.AWSLambdaException",
+            "Lambda.SdkClientException",
+            "Lambda.TooManyRequestsException"
+          ],
+          "IntervalSeconds": 1,
+          "MaxAttempts": 3,
+          "BackoffRate": 2
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.ALL"
+          ],
+          "Next": "sns_report_error"
+        }
+      ],
+      "Next": "lambda_html_to_csv"
+    },
+    "lambda_html_to_csv": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "Payload.$": "$",
+        "FunctionName": "${lambda_html_to_csv_arn}"
+      },
+      "OutputPath": "$.Payload",
+      "Retry": [
+        {
+          "ErrorEquals": [
+            "Lambda.ServiceException",
+            "Lambda.AWSLambdaException",
+            "Lambda.SdkClientException",
+            "Lambda.TooManyRequestsException"
+          ],
+          "IntervalSeconds": 1,
+          "MaxAttempts": 3,
+          "BackoffRate": 2
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.ALL"
+          ],
+          "Next": "sns_report_error"
+        }
+      ],
+      "Next": "lambda_csv_html_validation"
+    },
+    "lambda_csv_html_validation": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "Payload.$": "$",
+        "FunctionName": "${lambda_csv_html_validation_arn}"
+      },
+      "OutputPath": "$.Payload",
+      "Retry": [
+        {
+          "ErrorEquals": [
+            "Lambda.ServiceException",
+            "Lambda.AWSLambdaException",
+            "Lambda.SdkClientException",
+            "Lambda.TooManyRequestsException"
+          ],
+          "IntervalSeconds": 1,
+          "MaxAttempts": 3,
+          "BackoffRate": 2
+        }
+      ],
+      "Catch": [
+        {
+          "ErrorEquals": [
+            "States.ALL"
+          ],
+          "Next": "sns_report_error"
+        }
+      ],
+      "Next": "sns_report_success"
+    },
+    "sns_report_error": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::sns:publish",
+      "Parameters": {
+        "TopicArn": "${sns_error_topic_arn}",
+        "Message": {
+          "content.$": "$"
+        }
+      },
+      "Next": "failure_state"
+    },
+    "sns_report_success": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::sns:publish",
+      "Parameters": {
+        "TopicArn": "${sns_success_topic_arn}",
+        "Message": {
+          "content.$": "$"
+        }
+      },
+      "Next": "success_state"
+    },
+    "failure_state": {
+      "Type": "Fail",
+      "CausePath": "$.Cause",
+      "ErrorPath": "$.Error"
+    },
+    "success_state": {
+      "Type": "Succeed"
+    }
+  }
+}
