@@ -17,7 +17,7 @@ module "lambda_pdf_to_html" {
   src_folder     = "../src_lambda_pdf_to_html"
   python_version = var.python_version
   lambda_layers = [
-  "arn:aws:lambda:${data.aws_region.current}:460453255610:layer:textractor-lambda-p311-pdf:1", "arn:aws:lambda:${data.aws_region.current}:460453255610:layer:poppler:3"]
+  "arn:aws:lambda:${data.aws_region.current.name}:460453255610:layer:textractor-lambda-p311-pdf:1", "arn:aws:lambda:${data.aws_region.current.name}:460453255610:layer:poppler:3"]
   tags = var.tags
 }
 
